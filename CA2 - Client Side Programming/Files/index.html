@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ ABOUT FRUITS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>What is the fruit?</h1><!--Create a line-->
+    <h2 id="startText">Press start</h2><!--Create a line-->
+    <p id="timer">60 seconds remaining</p><!--Creates a paragraph with a text-->
+    <div id="imgPlace"><!--Creates a div which will hold an image of a fruit -->
+        <img id="fruit-image" src=""><!--creates an image element-->
+    </div>
+    <div id="input-group"><!--creates a div which will hold the answer input, start and submit button-->
+        <input type="text" id="answer-input" placeholder="Enter here your answer"><!--creates an input element to the user put their answer-->
+        <button id="submit">Submit</button><!--creates a button to submit the answer-->
+        <button id="start">Start</button><!--creates a button to start the quiz-->
+    </div>
+    <p id="result"></p><!--will display the result of the game-->
+    <p id="score"></p><!--will display the score of the game-->
+    <script src="script.js"></script><!--imports an external JavaScript file-->
+</body>
+
+</html>

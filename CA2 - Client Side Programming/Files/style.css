@@ -1,0 +1,42 @@
+/*Sets up the layout of the page*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/*Styles the fruit image*/
+#fruit-image {
+  width: 300px;
+  height: 300px;
+}
+
+/*Styles the input group containing the answer input and submit button*/
+#input-group {
+  display: flex;
+  align-items: center;
+}
+
+/*Styles the answer input field*/
+#answer-input {
+  margin: 15px;
+}
+
+/*Styles the submit button*/
+#submit {
+  margin-right: 15px;
+}
+
+/*Styles the result and score display areas*/
+#result,
+#score {
+  margin-top: 20px;
+}
+
+/*Styles the image placeholder for the uploaded image*/
+#imgPlace {
+  height: 300px;
+  width: 300px;
+}
